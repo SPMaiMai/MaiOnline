@@ -50,15 +50,11 @@ body {
 .logo-box {
     width: 2rem;
     height: 2rem;
-    background-color: #0f172a;
-    color: #ffffff;
-    font-weight: 800;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: block;
     border-radius: 6px;
-    font-size: 0.875rem;
     flex-shrink: 0;
+    object-fit: contain;
+    background: transparent;
 }
 
 .logo-text {
